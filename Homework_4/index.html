@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title> Домашнее задание 4: работа с файлами </title>
+</head>
+<body>
+  <h1> Дмитриев Артём Вадимович, БПИ216, ДЗ 4</h1>
+  <form action="handler.php" method="POST">
+    <p><b>Введите марку:</b><br>
+      <label>
+        <input type="text" name="brand" size="40" minlength="2" maxlength="16">
+      </label>
+    </p>
+    <p><b>Введите модель:</b><br>
+      <label>
+        <input type="text" name="model" size="40" minlength="2" maxlength="32">
+      </label>
+    </p>
+    <p><b>Введите цвет:</b><br>
+      <label>
+        <input type="text" name="color" size="40" minlength="2" maxlength="16">
+      </label>
+    </p>
+    <p><b>Введите лошадиные силы:</b><br>
+      <label>
+        <input type="number" name="hp" size="40" min="50" max="500">
+      </label>
+    </p>
+    <p><b>Введите год выпуска:</b><br>
+      <label>
+        <input type="number" name="year" size="40" min="1900" max="2022">
+      </label>
+    </p>
+    <div class="buttons">
+      <p><input type="submit" name="save" value="Сохранить"></p>
+      <div class="space"></div>
+      <p><input type="submit" name="load" value="Найти"></p>
+    </div>
+  </form>
+</body>
+</html>

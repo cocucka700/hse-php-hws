@@ -1,0 +1,7 @@
+Brand = BMW; Model = M4; Color = Black; Hp = 350; Year = 2020.
+Brand = Volkswagen; Model = Polo; Color = Dark Green; Hp = 160; Year = 2020.
+Brand = Лада; Model = Веста; Color = Розовый; Hp = 150; Year = 2020.
+Brand = 12; Model = 12; Color = 12; Hp = 100; Year = 2000.
+Brand = ; Model = ; Color = ; Hp = 0; Year = 0.
+Brand = ; Model = ; Color = ; Hp = 0; Year = 0.
+Brand = Brand; Model = Model; Color = Color; Hp = 0; Year = 0.

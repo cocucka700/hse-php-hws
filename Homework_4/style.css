@@ -1,0 +1,25 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+input[type=submit] {
+    width: 10cm;
+    height: 2cm;
+}
+body {
+    font-family: Consolas, serif;
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.space {
+    width: 20px;
+    height: auto;
+    display: inline-block;
+}
